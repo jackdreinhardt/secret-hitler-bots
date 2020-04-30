@@ -1,0 +1,71 @@
+Total Number of Games Played:
+{'total_num_games': 2260}
+
+Total Number of Games Win Reasons:
+{'_id': {'win_reason': 'five_liberal_policies'}, 'number_wins': 304}
+{'_id': {'win_reason': 'six_fascist_policies'}, 'number_wins': 510}
+{'_id': {'win_reason': 'hitler_elected'}, 'number_wins': 1051}
+{'_id': {'win_reason': 'hitler_killed'}, 'number_wins': 395}
+
+Wins and Losses by Agent:
+{'_id': {'agent': 'Simple Agent'}, 'losses': 3497, 'wins': 2904}
+{'_id': {'agent': 'Single MCTS Playout Agent'}, 'losses': 2169, 'wins': 2122}
+{'_id': {'agent': 'Random Agent'}, 'losses': 2680, 'wins': 2169}
+
+Wins and Losses by Agent and Secret Role:
+{'_id': {'agent': 'Single MCTS Playout Agent', 'secret_role': 'fascist'},
+ 'losses': 314,
+ 'wins': 833}
+{'_id': {'agent': 'Single MCTS Playout Agent', 'secret_role': 'hitler'},
+ 'losses': 172,
+ 'wins': 404}
+{'_id': {'agent': 'Random Agent', 'secret_role': 'hitler'},
+ 'losses': 217,
+ 'wins': 475}
+{'_id': {'agent': 'Simple Agent', 'secret_role': 'liberal'},
+ 'losses': 2698,
+ 'wins': 1134}
+{'_id': {'agent': 'Random Agent', 'secret_role': 'fascist'},
+ 'losses': 394,
+ 'wins': 830}
+{'_id': {'agent': 'Simple Agent', 'secret_role': 'hitler'},
+ 'losses': 310,
+ 'wins': 682}
+{'_id': {'agent': 'Random Agent', 'secret_role': 'liberal'},
+ 'losses': 2069,
+ 'wins': 864}
+{'_id': {'agent': 'Simple Agent', 'secret_role': 'fascist'},
+ 'losses': 489,
+ 'wins': 1088}
+{'_id': {'agent': 'Single MCTS Playout Agent', 'secret_role': 'liberal'},
+ 'losses': 1683,
+ 'wins': 885}
+
+Win and Loss Reasons by Agent:
+{'_id': {'agent': 'Random Agent'},
+ 'five_liberal_policies_losses': 298,
+ 'five_liberal_policies_wins': 351,
+ 'hitler_elected_losses': 1264,
+ 'hitler_elected_wins': 822,
+ 'hitler_killed_losses': 313,
+ 'hitler_killed_wins': 513,
+ 'six_fascist_policies_losses': 805,
+ 'six_fascist_policies_wins': 483}
+{'_id': {'agent': 'Single MCTS Playout Agent'},
+ 'five_liberal_policies_losses': 199,
+ 'five_liberal_policies_wins': 475,
+ 'hitler_elected_losses': 999,
+ 'hitler_elected_wins': 655,
+ 'hitler_killed_losses': 287,
+ 'hitler_killed_wins': 410,
+ 'six_fascist_policies_losses': 684,
+ 'six_fascist_policies_wins': 582}
+{'_id': {'agent': 'Simple Agent'},
+ 'five_liberal_policies_losses': 350,
+ 'five_liberal_policies_wins': 461,
+ 'hitler_elected_losses': 1848,
+ 'hitler_elected_wins': 1242,
+ 'hitler_killed_losses': 449,
+ 'hitler_killed_wins': 673,
+ 'six_fascist_policies_losses': 850,
+ 'six_fascist_policies_wins': 528}

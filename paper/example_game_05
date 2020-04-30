@@ -1,0 +1,3660 @@
+  INFO:root:========================= Game 4 Started =========================
+timestamp: '2020-04-27T08:28:23.766373386Z'
+---
+insertId: n9cwuy3d902lwdv5c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:root:agents=['random', 'random', 'soismcts', 'soismcts', 'selfish', 'selfish', 'soismcts', 'soismcts']
+timestamp: '2020-04-27T08:28:23.766381467Z'
+---
+insertId: n9cwuy3d902lwdv5d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:game started with: state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.nomination policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=7 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:28:23.773177402Z'
+---
+insertId: n9cwuy3d902lwdv5e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:game started with: hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:28:23.773210078Z'
+---
+insertId: n9cwuy3d902lwdv5f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:game started with: agents=['<Random Agent deck_knowledge=[] num_hidden_role_beliefs=1 name=Random Agent party=Party.fascist player_id=0 president_pass=[] secret_role=SecretRole.fascist>', '<Random Agent deck_knowledge=[] num_hidden_role_beliefs=105 name=Random Agent party=Party.liberal player_id=1 president_pass=[] secret_role=SecretRole.liberal>', '<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler>', '<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist>', '<Selfish Agent deck_knowledge=[] num_hidden_role_beliefs=105 name=Selfish Agent party=Party.liberal player_id=4 president_pass=[] secret_role=SecretRole.liberal>', '<Selfish Agent deck_knowledge=[] num_hidden_role_beliefs=105 name=Selfish Agent party=Party.liberal player_id=5 president_pass=[] secret_role=SecretRole.liberal>', '<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal>', '<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal>']
+timestamp: '2020-04-27T08:28:23.773354618Z'
+---
+insertId: n9cwuy3d902lwdv5g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.nomination policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=7 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:28:23.773389761Z'
+---
+insertId: n9cwuy3d902lwdv5h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:28:30.236886684Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:28:23.773455337Z'
+---
+insertId: n9cwuy3d902lwdv7h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:29:48.855034227Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen NominateChancellorAction(chancellor=2)
+timestamp: '2020-04-27T08:29:41.618147214Z'
+---
+insertId: n9cwuy3d902lwdv7i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:29:48.855034227Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=2 chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.vote policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=7 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:29:41.626051049Z'
+---
+insertId: n9cwuy3d902lwdv7j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:29:48.855034227Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:29:41.626098759Z'
+---
+insertId: n9cwuy3d902lwdv7k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:29:48.855034227Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:29:41.626114261Z'
+---
+insertId: n9cwuy3d902lwdv7l
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:29:48.855034227Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:29:41.626242665Z'
+---
+insertId: n9cwuy3d902lwdw0x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:31:15.304794994Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:31:08.754893063Z'
+---
+insertId: n9cwuy3d902lwdw2h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:32:20.783457010Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:32:18.500240358Z'
+---
+insertId: n9cwuy3d902lwdw2i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:32:20.783457010Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:32:18.500336419Z'
+---
+insertId: n9cwuy3d902lwdw2j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:32:20.783457010Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:32:18.500346446Z'
+---
+insertId: n9cwuy3d902lwdw3c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:33:20.141966983Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:33:14.834351758Z'
+---
+insertId: n9cwuy3d902lwdw4y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:34:30.594499267Z'
+---
+insertId: n9cwuy3d902lwdw4z
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=1 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.nomination policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=0 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:34:30.612546718Z'
+---
+insertId: n9cwuy3d902lwdw5a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:34:30.612591475Z'
+---
+insertId: n9cwuy3d902lwdw5b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen NominateChancellorAction(chancellor=1)
+timestamp: '2020-04-27T08:34:30.612703066Z'
+---
+insertId: n9cwuy3d902lwdw5c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=1 chaos=1 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.vote policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=0 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:34:30.627892128Z'
+---
+insertId: n9cwuy3d902lwdw5d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:34:30.628061155Z'
+---
+insertId: n9cwuy3d902lwdw5e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:34:30.628071636Z'
+---
+insertId: n9cwuy3d902lwdw5f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:34:36.378525772Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:34:30.628077890Z'
+---
+insertId: n9cwuy3d902lwdw6u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:35:28.573859157Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:35:22.099247219Z'
+---
+insertId: n9cwuy3d902lwdw8o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:36:31.722526019Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:36:25.751927452Z'
+---
+insertId: n9cwuy3d902lwdw8p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:36:31.722526019Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:36:25.752127275Z'
+---
+insertId: n9cwuy3d902lwdw8q
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:36:31.722526019Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:36:25.752142525Z'
+---
+insertId: n9cwuy3d902lwdx1g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:37:52.259718493Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:37:47.577981701Z'
+---
+insertId: n9cwuy3d902lwdx3d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:39:08.153182928Z'
+---
+insertId: n9cwuy3d902lwdx3e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=2 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.nomination policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=1 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:39:08.171661215Z'
+---
+insertId: n9cwuy3d902lwdx3f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:39:08.171753183Z'
+---
+insertId: n9cwuy3d902lwdx3g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen NominateChancellorAction(chancellor=7)
+timestamp: '2020-04-27T08:39:08.171815973Z'
+---
+insertId: n9cwuy3d902lwdx3h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=7 chaos=2 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=0 phase=Phase.vote policy_deck_size=17 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=1 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:39:08.186920366Z'
+---
+insertId: n9cwuy3d902lwdx3i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=17> proposed_policies=()>
+timestamp: '2020-04-27T08:39:08.186963518Z'
+---
+insertId: n9cwuy3d902lwdx3j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:39:08.186973289Z'
+---
+insertId: n9cwuy3d902lwdx3k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:39:14.753334418Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:39:08.186979278Z'
+---
+insertId: n9cwuy3d902lwdx5a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:40:25.154402232Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:40:22.265087839Z'
+---
+insertId: n9cwuy3d902lwdx6d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:41:32.594411501Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:41:27.074636709Z'
+---
+insertId: n9cwuy3d902lwdx6e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:41:32.594411501Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:41:27.074687231Z'
+---
+insertId: n9cwuy3d902lwdx6f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:41:32.594411501Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:41:27.074779255Z'
+---
+insertId: n9cwuy3d902lwdx7t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:42:39.049680744Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:42:36.185697487Z'
+---
+insertId: n9cwuy3d902lwdx8t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:43:47.428730871Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:43:43.401793860Z'
+---
+insertId: n9cwuy3d902lwdx8u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:43:47.428730871Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=7 chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=16 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:43:43.432076239Z'
+---
+insertId: n9cwuy3d902lwdx8v
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:43:47.428730871Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=16> proposed_policies=()>
+timestamp: '2020-04-27T08:43:43.432143327Z'
+---
+insertId: n9cwuy3d902lwdy1k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:45:07.453784326Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen NominateChancellorAction(chancellor=3)
+timestamp: '2020-04-27T08:45:03.408040801Z'
+---
+insertId: n9cwuy3d902lwdy1l
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:45:07.453784326Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=3 chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=16 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=None se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:45:03.416333588Z'
+---
+insertId: n9cwuy3d902lwdy1m
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:45:07.453784326Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=16> proposed_policies=()>
+timestamp: '2020-04-27T08:45:03.416453362Z'
+---
+insertId: n9cwuy3d902lwdy1n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:45:07.453784326Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:45:03.416479789Z'
+---
+insertId: n9cwuy3d902lwdy1o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:45:07.453784326Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:45:03.416487299Z'
+---
+insertId: n9cwuy3d902lwdy3j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:46:15.908046917Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:46:09.804133355Z'
+---
+insertId: n9cwuy3d902lwdy3w
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:47:06.602364440Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:47:00.175714778Z'
+---
+insertId: n9cwuy3d902lwdy3x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:47:06.602364440Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:47:00.175784801Z'
+---
+insertId: n9cwuy3d902lwdy3y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:47:06.602364440Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:47:00.175796007Z'
+---
+insertId: n9cwuy3d902lwdy5s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:48:19.708416818Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:48:13.451833690Z'
+---
+insertId: n9cwuy3d902lwdy7s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:49:40.150108963Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:49:37.268946763Z'
+---
+insertId: n9cwuy3d902lwdy7t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:49:40.150108963Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=3 chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentSelectPolicy policy_deck_size=13 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=(2, 3) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:49:37.319621663Z'
+---
+insertId: n9cwuy3d902lwdy7u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:49:40.150108963Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=13> proposed_policies=(<Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>)>
+timestamp: '2020-04-27T08:49:37.319790046Z'
+---
+insertId: n9cwuy3d902lwdz0a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:50:49.454574203Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T08:50:46.558657245Z'
+---
+insertId: n9cwuy3d902lwdz0b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:50:49.454574203Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=3 chaos=0 current_num_players=8 fas_policy=0 game_end=None game_end_reason=None lib_policy=1 phase=Phase.chancellorSelectPolicy policy_deck_size=13 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=(2, 3) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:50:46.577660571Z'
+---
+insertId: n9cwuy3d902lwdz0c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:50:49.454574203Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=13> proposed_policies=[<Party.fascist: 0>, <Party.liberal: 1>]>
+timestamp: '2020-04-27T08:50:46.577728058Z'
+---
+insertId: n9cwuy3d902lwdz1c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:51:49.131159035Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T08:51:47.325502244Z'
+---
+insertId: n9cwuy3d902lwdz1d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:51:49.131159035Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=1 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=13 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=3 president_veto=True prev_gov=(2, 3) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:51:47.340225350Z'
+---
+insertId: n9cwuy3d902lwdz1e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:51:49.131159035Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=13> proposed_policies=()>
+timestamp: '2020-04-27T08:51:47.340271433Z'
+---
+insertId: n9cwuy3d902lwdz4g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:00.706164718Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen NominateChancellorAction(chancellor=0)
+timestamp: '2020-04-27T08:52:54.546090727Z'
+---
+insertId: n9cwuy3d902lwdz4h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:00.706164718Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=0 current_num_players=8 fas_policy=1 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=13 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=3 president_veto=True prev_gov=(2, 3) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:52:54.554346725Z'
+---
+insertId: n9cwuy3d902lwdz4i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:00.706164718Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=13> proposed_policies=()>
+timestamp: '2020-04-27T08:52:54.554486008Z'
+---
+insertId: n9cwuy3d902lwdz4j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:00.706164718Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:52:54.554504039Z'
+---
+insertId: n9cwuy3d902lwdz4k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:00.706164718Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:52:54.554511386Z'
+---
+insertId: n9cwuy3d902lwdz6e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:53:55.915290084Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:53:49.734136040Z'
+---
+insertId: n9cwuy3d902lwdz8y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:55:04.177193614Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:54:57.949532213Z'
+---
+insertId: n9cwuy3d902lwdz8z
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:55:04.177193614Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:54:57.949771780Z'
+---
+insertId: n9cwuy3d902lwdz9a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:55:04.177193614Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:54:57.949789514Z'
+---
+insertId: n9cwuy3d902lwea1f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:56:05.479791935Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:55:58.507865833Z'
+---
+insertId: n9cwuy3d902lwea2r
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:56:46.741636990Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:56:44.575981387Z'
+---
+insertId: n9cwuy3d902lwea2s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:56:46.741636990Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=0 current_num_players=8 fas_policy=1 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentSelectPolicy policy_deck_size=10 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=3 president_veto=True prev_gov=(3, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:56:44.603320110Z'
+---
+insertId: n9cwuy3d902lwea2t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:56:46.741636990Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=10> proposed_policies=(<Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>)>
+timestamp: '2020-04-27T08:56:44.603443321Z'
+---
+insertId: n9cwuy3d902lwea4b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T08:57:26.809835366Z'
+---
+insertId: n9cwuy3d902lwea4c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=0 current_num_players=8 fas_policy=1 game_end=None game_end_reason=None lib_policy=1 phase=Phase.chancellorSelectPolicy policy_deck_size=10 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=3 president_veto=True prev_gov=(3, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:57:26.819811254Z'
+---
+insertId: n9cwuy3d902lwea4d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=10> proposed_policies=[<Party.fascist: 0>, <Party.fascist: 0>]>
+timestamp: '2020-04-27T08:57:26.819867968Z'
+---
+insertId: n9cwuy3d902lwea4e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T08:57:26.819980487Z'
+---
+insertId: n9cwuy3d902lwea4f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=2 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentPower policy_deck_size=10 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=3 president_veto=True prev_gov=(3, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:57:26.831171368Z'
+---
+insertId: n9cwuy3d902lwea4g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:57:33.061958618Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=10> proposed_policies=()>
+timestamp: '2020-04-27T08:57:26.831230514Z'
+---
+insertId: n9cwuy3d902lwea5m
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen InvestigateAction(player=7)
+timestamp: '2020-04-27T08:58:02.987273463Z'
+---
+insertId: n9cwuy3d902lwea5n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=2 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=10 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=4 president_veto=True prev_gov=(3, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:58:03.007983470Z'
+---
+insertId: n9cwuy3d902lwea5o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=10> proposed_policies=()>
+timestamp: '2020-04-27T08:58:03.008040678Z'
+---
+insertId: n9cwuy3d902lwea5p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen NominateChancellorAction(chancellor=6)
+timestamp: '2020-04-27T08:58:03.008052917Z'
+---
+insertId: n9cwuy3d902lwea5q
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=6 chaos=0 current_num_players=8 fas_policy=2 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=10 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=4 president_veto=True prev_gov=(3, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T08:58:03.024230870Z'
+---
+insertId: n9cwuy3d902lwea5r
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=10> proposed_policies=()>
+timestamp: '2020-04-27T08:58:03.024299624Z'
+---
+insertId: n9cwuy3d902lwea5s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:58:03.024483771Z'
+---
+insertId: n9cwuy3d902lwea5t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:05.374662840Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:58:03.024535058Z'
+---
+insertId: n9cwuy3d902lwea8u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:58:58.821723165Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:58:52.480005272Z'
+---
+insertId: n9cwuy3d902lwea9v
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:59:41.069672986Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:59:39.178175120Z'
+---
+insertId: n9cwuy3d902lwea9w
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:59:41.069672986Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T08:59:39.178273754Z'
+---
+insertId: n9cwuy3d902lwea9x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T08:59:41.069672986Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T08:59:39.178302415Z'
+---
+insertId: n9cwuy3d902lweb1v
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:00:27.499379946Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:00:20.632171310Z'
+---
+insertId: n9cwuy3d902lweb4c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:01:23.286530750Z'
+---
+insertId: n9cwuy3d902lweb4d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=6 chaos=0 current_num_players=8 fas_policy=2 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentSelectPolicy policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=4 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:01:23.336590876Z'
+---
+insertId: n9cwuy3d902lweb4e
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=(<Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>)>
+timestamp: '2020-04-27T09:01:23.336714697Z'
+---
+insertId: n9cwuy3d902lweb4f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T09:01:23.336750757Z'
+---
+insertId: n9cwuy3d902lweb4g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=6 chaos=0 current_num_players=8 fas_policy=2 game_end=None game_end_reason=None lib_policy=1 phase=Phase.chancellorSelectPolicy policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=4 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:01:23.355977233Z'
+---
+insertId: n9cwuy3d902lweb4h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:01:30.238170485Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=[<Party.fascist: 0>, <Party.fascist: 0>]>
+timestamp: '2020-04-27T09:01:23.356132222Z'
+---
+insertId: n9cwuy3d902lweb4u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T09:01:55.526863193Z'
+---
+insertId: n9cwuy3d902lweb4v
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentPower policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=4 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:01:55.538168239Z'
+---
+insertId: n9cwuy3d902lweb4w
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:01:55.538230901Z'
+---
+insertId: n9cwuy3d902lweb4x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen SpecialElectionAction(player=2)
+timestamp: '2020-04-27T09:01:55.538242386Z'
+---
+insertId: n9cwuy3d902lweb4y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=(4, 6) se_prev_pres=4 starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:01:55.547376805Z'
+---
+insertId: n9cwuy3d902lweb4z
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:02.214337725Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:01:55.547444580Z'
+---
+insertId: n9cwuy3d902lweb5s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:41.224555644Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen NominateChancellorAction(chancellor=0)
+timestamp: '2020-04-27T09:02:34.261744174Z'
+---
+insertId: n9cwuy3d902lweb5t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:41.224555644Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=0 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=2 president_veto=True prev_gov=(4, 6) se_prev_pres=4 starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:02:34.277002297Z'
+---
+insertId: n9cwuy3d902lweb5u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:41.224555644Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:02:34.277063170Z'
+---
+insertId: n9cwuy3d902lweb5v
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:41.224555644Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:02:34.277258515Z'
+---
+insertId: n9cwuy3d902lweb5w
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:02:41.224555644Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:02:34.277290727Z'
+---
+insertId: n9cwuy3d902lweb9j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:03:16.241558086Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:03:09.255295760Z'
+---
+insertId: n9cwuy3d902lweb9s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:03:55.212656825Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:03:48.509214452Z'
+---
+insertId: n9cwuy3d902lweb9t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:03:55.212656825Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:03:48.509377830Z'
+---
+insertId: n9cwuy3d902lweb9u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:03:55.212656825Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:03:48.509446305Z'
+---
+insertId: n9cwuy3d902lweb9y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:04:23.300879039Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:04:16.957995156Z'
+---
+insertId: n9cwuy3d902lwec1l
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:04:56.242529550Z'
+---
+insertId: n9cwuy3d902lwec1m
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=1 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=5 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:04:56.261453823Z'
+---
+insertId: n9cwuy3d902lwec1n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:04:56.261516181Z'
+---
+insertId: n9cwuy3d902lwec1o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen NominateChancellorAction(chancellor=2)
+timestamp: '2020-04-27T09:04:56.261606403Z'
+---
+insertId: n9cwuy3d902lwec1p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=2 chaos=1 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=5 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:04:56.277147680Z'
+---
+insertId: n9cwuy3d902lwec1q
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:04:56.277239840Z'
+---
+insertId: n9cwuy3d902lwec1r
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:04:56.277349684Z'
+---
+insertId: n9cwuy3d902lwec1s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:03.230165056Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:04:56.277360643Z'
+---
+insertId: n9cwuy3d902lwec1t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:05:32.316376987Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:05:25.141790063Z'
+---
+insertId: n9cwuy3d902lwec3w
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:06:05.592275904Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:05:58.500303951Z'
+---
+insertId: n9cwuy3d902lwec3x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:06:05.592275904Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:05:58.500353808Z'
+---
+insertId: n9cwuy3d902lwec3y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:06:05.592275904Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:05:58.500433204Z'
+---
+insertId: n9cwuy3d902lwec4n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:06:39.657108323Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:06:37.411302662Z'
+---
+insertId: n9cwuy3d902lwec4z
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:13.851659359Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:07:10.226181201Z'
+---
+insertId: n9cwuy3d902lwec5a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:13.851659359Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=2 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=6 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:07:10.245480638Z'
+---
+insertId: n9cwuy3d902lwec5b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:13.851659359Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:07:10.245538268Z'
+---
+insertId: n9cwuy3d902lwec5p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:56.140890869Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen NominateChancellorAction(chancellor=0)
+timestamp: '2020-04-27T09:07:51.078380578Z'
+---
+insertId: n9cwuy3d902lwec5q
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:56.140890869Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=2 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=7 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=6 president_veto=True prev_gov=(4, 6) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:07:51.086673240Z'
+---
+insertId: n9cwuy3d902lwec5r
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:56.140890869Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=7> proposed_policies=()>
+timestamp: '2020-04-27T09:07:51.086838159Z'
+---
+insertId: n9cwuy3d902lwec5s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:56.140890869Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:07:51.086853628Z'
+---
+insertId: n9cwuy3d902lwec5t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:07:56.140890869Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:1 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:07:51.086860543Z'
+---
+insertId: n9cwuy3d902lwed4o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:08:36.628416516Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:08:30.358922315Z'
+---
+insertId: n9cwuy3d902lwed5f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:09:20.934109442Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:09:14.895720286Z'
+---
+insertId: n9cwuy3d902lwed5g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:09:20.934109442Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:09:14.895882055Z'
+---
+insertId: n9cwuy3d902lwed5h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:09:20.934109442Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:09:14.895896136Z'
+---
+insertId: n9cwuy3d902lwed6h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:09:49.224421488Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:09:46.836521577Z'
+---
+insertId: n9cwuy3d902lwed7i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:10:39.545260268Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=105 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:10:33.107513881Z'
+---
+insertId: n9cwuy3d902lwed7j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:10:39.545260268Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=2 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentSelectPolicy policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=6 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:10:33.152788650Z'
+---
+insertId: n9cwuy3d902lwed7k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:10:39.545260268Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=(<Party.liberal: 1>, <Party.fascist: 0>, <Party.liberal: 1>)>
+timestamp: '2020-04-27T09:10:33.152849864Z'
+---
+insertId: n9cwuy3d902lwed9f
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=90 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen PolicyChoiceAction(policy=<Party.liberal: 1>)
+timestamp: '2020-04-27T09:11:15.521504548Z'
+---
+insertId: n9cwuy3d902lwed9g
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=0 chaos=2 current_num_players=8 fas_policy=3 game_end=None game_end_reason=None lib_policy=1 phase=Phase.chancellorSelectPolicy policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=6 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:11:15.538469824Z'
+---
+insertId: n9cwuy3d902lwed9h
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=[<Party.fascist: 0>, <Party.liberal: 1>]>
+timestamp: '2020-04-27T09:11:15.538521698Z'
+---
+insertId: n9cwuy3d902lwed9i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen PolicyChoiceAction(policy=<Party.fascist: 0>)
+timestamp: '2020-04-27T09:11:15.538650911Z'
+---
+insertId: n9cwuy3d902lwed9j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 1, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=8 fas_policy=4 game_end=None game_end_reason=None lib_policy=1 phase=Phase.presidentPower policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=6 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:11:15.557353007Z'
+---
+insertId: n9cwuy3d902lwed9k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:21.798054424Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=()>
+timestamp: '2020-04-27T09:11:15.557440463Z'
+---
+insertId: n9cwuy3d902lwed9y
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:42.893939048Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=90 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen BulletPowerAction(player=1)
+timestamp: '2020-04-27T09:11:38.805753045Z'
+---
+insertId: n9cwuy3d902lwed9z
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:42.893939048Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 2, 3, 4, 5, 6, 7] chancellor=None chaos=0 current_num_players=7 fas_policy=4 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=7 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:11:38.815721204Z'
+---
+insertId: n9cwuy3d902lwee0a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:11:42.893939048Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=()>
+timestamp: '2020-04-27T09:11:38.815766592Z'
+---
+insertId: n9cwuy3d902lwee1a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:12:11.059637813Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=75 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen NominateChancellorAction(chancellor=3)
+timestamp: '2020-04-27T09:12:08.507800299Z'
+---
+insertId: n9cwuy3d902lwee1b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:12:11.059637813Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 2, 3, 4, 5, 6, 7] chancellor=3 chaos=0 current_num_players=7 fas_policy=4 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=7 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:12:08.519684031Z'
+---
+insertId: n9cwuy3d902lwee1c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:12:11.059637813Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=()>
+timestamp: '2020-04-27T09:12:08.519750482Z'
+---
+insertId: n9cwuy3d902lwee1d
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:12:11.059637813Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:12:08.519762971Z'
+---
+insertId: n9cwuy3d902lwee1u
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:12:49.352175736Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:12:43.800348532Z'
+---
+insertId: n9cwuy3d902lwee2a
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:11.476424165Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:13:05.697306994Z'
+---
+insertId: n9cwuy3d902lwee2b
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:11.476424165Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:13:05.697390788Z'
+---
+insertId: n9cwuy3d902lwee2c
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:11.476424165Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:13:05.697497269Z'
+---
+insertId: n9cwuy3d902lwee2o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:31.582073607Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=75 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:13:25.790497578Z'
+---
+insertId: n9cwuy3d902lwee3n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=75 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:13:49.107068697Z'
+---
+insertId: n9cwuy3d902lwee3o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 2, 3, 4, 5, 6, 7] chancellor=None chaos=1 current_num_players=7 fas_policy=4 game_end=None game_end_reason=None lib_policy=1 phase=Phase.nomination policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=0 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:13:49.121364419Z'
+---
+insertId: n9cwuy3d902lwee3p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=()>
+timestamp: '2020-04-27T09:13:49.121430295Z'
+---
+insertId: n9cwuy3d902lwee3q
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen NominateChancellorAction(chancellor=2)
+timestamp: '2020-04-27T09:13:49.121526117Z'
+---
+insertId: n9cwuy3d902lwee3r
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:current state=<SecretHitlerState alive_players=[0, 2, 3, 4, 5, 6, 7] chancellor=2 chaos=1 current_num_players=7 fas_policy=4 game_end=None game_end_reason=None lib_policy=1 phase=Phase.vote policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=0 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:13:49.133559408Z'
+---
+insertId: n9cwuy3d902lwee3s
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:hidden_state=<HiddenSecretHitlerState discard_pile=[<Party.fascist: 0>, <Party.liberal: 1>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.fascist: 0>, <Party.liberal: 1>, <Party.liberal: 1>] hidden_roles=(<SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.hitler: 2>, <SecretRole.fascist: 0>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>, <SecretRole.liberal: 1>) policy_deck=<PolicyDeck len=4> proposed_policies=()>
+timestamp: '2020-04-27T09:13:49.133631087Z'
+---
+insertId: n9cwuy3d902lwee3t
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:13:55.235022672Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.random_agent:Random Agent:0 has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:13:49.133753185Z'
+---
+insertId: n9cwuy3d902lwee3x
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:14:16.398014276Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=21 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=2 president_pass=[] secret_role=SecretRole.hitler> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:14:10.154182171Z'
+---
+insertId: n9cwuy3d902lwee4n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:14:38.596114956Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=1 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.fascist player_id=3 president_pass=[] secret_role=SecretRole.fascist> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:14:32.871512915Z'
+---
+insertId: n9cwuy3d902lwee4o
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:14:38.596114956Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:4 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:14:32.871696098Z'
+---
+insertId: n9cwuy3d902lwee4p
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:14:38.596114956Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.selfish_agent:Selfish Agent:5 has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:14:32.871710033Z'
+---
+insertId: n9cwuy3d902lwee5l
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:04.712848435Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=75 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=6 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=False)
+timestamp: '2020-04-27T09:14:58.933659767Z'
+---
+insertId: n9cwuy3d902lwee6i
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:agents.soismcts_agent:<SO-ISMCTS-10000 Agent deck_knowledge=[] num_hidden_role_beliefs=75 iterations=10000 name=SO-ISMCTS-10000 Agent party=Party.liberal player_id=7 president_pass=[] secret_role=SecretRole.liberal> has chosen VoteAction(ja=True)
+timestamp: '2020-04-27T09:15:27.964775310Z'
+---
+insertId: n9cwuy3d902lwee6j
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:ending game state=<SecretHitlerState alive_players=[0, 2, 3, 4, 5, 6, 7] chancellor=2 chaos=1 current_num_players=7 fas_policy=4 game_end=Party.fascist game_end_reason=GameEndReason.hitler_elected lib_policy=1 phase=Phase.end policy_deck_size=4 powers=[<Power.none: 4>, <Power.none: 4>, <Power.investigate: 2>, <Power.specialelection: 3>, <Power.bullet: 1>, <Power.bullet: 1>] president=0 president_veto=True prev_gov=(6, 0) se_prev_pres=None starting_num_players=8 veto=False>
+timestamp: '2020-04-27T09:15:27.964993278Z'
+---
+insertId: n9cwuy3d902lwee6k
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:battlefield.tournament:game ended in a fascist victory. GameEndReason.hitler_elected
+timestamp: '2020-04-27T09:15:27.965069222Z'
+---
+insertId: n9cwuy3d902lwee6l
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |
+  INFO:root:=============== Game 4 finished in 2824.198736667633 seconds =====================
+timestamp: '2020-04-27T09:15:27.965100281Z'
+---
+insertId: n9cwuy3d902lwee6m
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |2+
+
+timestamp: '2020-04-27T09:15:27.965108460Z'
+---
+insertId: n9cwuy3d902lwee6n
+labels:
+  k8s-pod/controller-uid: 6d8d38b1-883e-11ea-b4fd-42010a8001dc
+  k8s-pod/job-name: sh-battle-example
+logName: projects/deeprole/logs/stderr
+receiveTimestamp: '2020-04-27T09:15:29.805289760Z'
+resource:
+  labels:
+    cluster_name: prod
+    container_name: battlefield
+    location: us-central1-c
+    namespace_name: public
+    pod_name: sh-battle-example-bt69z
+    project_id: deeprole
+  type: k8s_container
+severity: ERROR
+textPayload: |

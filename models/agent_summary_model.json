@@ -1,0 +1,35 @@
+{
+  "_id": "uuid",
+  "agent": "str",
+  "secret_role": "str",
+  "total_wins": "int",
+  "total_losses": "int",
+  "win_reasons": {
+    "hitler_killed": "int",
+    "hitler_chancellor": "int",
+    "5_lib_policies": "int",
+    "6_lib_policies": "int"
+  },
+  "loss_reasons": {
+    "hitler_killed": "int",
+    "hitler_chancellor": "int",
+    "5_lib_policies": "int",
+    "6_lib_policies": "int"
+  },
+  "5p": {
+    "wins": "int",
+    "losses": "int",
+    "win_reasons": {
+      "hitler_killed": "int",
+      "hitler_chancellor": "int",
+      "5_lib_policies": "int",
+      "6_lib_policies": "int"
+    },
+    "loss_reasons": {
+      "hitler_killed": "int",
+      "hitler_chancellor": "int",
+      "5_lib_policies": "int",
+      "6_lib_policies": "int"
+    }
+  }
+}

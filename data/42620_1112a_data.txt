@@ -1,0 +1,92 @@
+Total Number of Games Played:
+{'total_num_games': 10011}
+
+Total Number of Games Win Reasons:
+{'_id': {'win_reason': 'hitler_killed'}, 'number_wins': 1349}
+{'_id': {'win_reason': 'five_liberal_policies'}, 'number_wins': 1023}
+{'_id': {'win_reason': 'six_fascist_policies'}, 'number_wins': 3984}
+{'_id': {'win_reason': 'hitler_elected'}, 'number_wins': 3655}
+
+Wins and Losses by Agent:
+{'_id': {'agent': 'Random Agent'}, 'losses': 10711, 'wins': 8177}
+{'_id': {'agent': 'Selfish Agent'}, 'losses': 9869, 'wins': 8982}
+{'_id': {'agent': 'PIMC++ Agent'}, 'losses': 10163, 'wins': 8181}
+{'_id': {'agent': 'PIMC Agent'}, 'losses': 10525, 'wins': 8060}
+
+Wins and Losses by Agent and Secret Role:
+{'_id': {'agent': 'Random Agent', 'secret_role': 'hitler'},
+ 'losses': 600,
+ 'wins': 1964}
+{'_id': {'agent': 'Random Agent', 'secret_role': 'liberal'},
+ 'losses': 8805,
+ 'wins': 2454}
+{'_id': {'agent': 'PIMC++ Agent', 'secret_role': 'liberal'},
+ 'losses': 8487,
+ 'wins': 2627}
+{'_id': {'agent': 'Selfish Agent', 'secret_role': 'hitler'},
+ 'losses': 516,
+ 'wins': 1992}
+{'_id': {'agent': 'Selfish Agent', 'secret_role': 'liberal'},
+ 'losses': 8325,
+ 'wins': 3010}
+{'_id': {'agent': 'PIMC++ Agent', 'secret_role': 'fascist'},
+ 'losses': 1075,
+ 'wins': 3709}
+{'_id': {'agent': 'PIMC Agent', 'secret_role': 'fascist'},
+ 'losses': 1156,
+ 'wins': 3775}
+{'_id': {'agent': 'Random Agent', 'secret_role': 'fascist'},
+ 'losses': 1306,
+ 'wins': 3759}
+{'_id': {'agent': 'PIMC Agent', 'secret_role': 'liberal'},
+ 'losses': 8714,
+ 'wins': 2447}
+{'_id': {'agent': 'PIMC Agent', 'secret_role': 'hitler'},
+ 'losses': 655,
+ 'wins': 1838}
+{'_id': {'agent': 'Selfish Agent', 'secret_role': 'fascist'},
+ 'losses': 1028,
+ 'wins': 3980}
+{'_id': {'agent': 'PIMC++ Agent', 'secret_role': 'hitler'},
+ 'losses': 601,
+ 'wins': 1845}
+
+Win and Loss Reasons by Agent:
+{'_id': {'agent': 'Random Agent'},
+ 'five_liberal_policies_losses': 910,
+ 'five_liberal_policies_wins': 1011,
+ 'hitler_elected_losses': 3856,
+ 'hitler_elected_wins': 2751,
+ 'hitler_killed_losses': 996,
+ 'hitler_killed_wins': 1443,
+ 'six_fascist_policies_losses': 4949,
+ 'six_fascist_policies_wins': 2972}
+{'_id': {'agent': 'PIMC++ Agent'},
+ 'five_liberal_policies_losses': 821,
+ 'five_liberal_policies_wins': 1028,
+ 'hitler_elected_losses': 3853,
+ 'hitler_elected_wins': 2348,
+ 'hitler_killed_losses': 855,
+ 'hitler_killed_wins': 1599,
+ 'six_fascist_policies_losses': 4634,
+ 'six_fascist_policies_wins': 3206}
+{'_id': {'agent': 'Selfish Agent'},
+ 'five_liberal_policies_losses': 473,
+ 'five_liberal_policies_wins': 1656,
+ 'hitler_elected_losses': 3934,
+ 'hitler_elected_wins': 2766,
+ 'hitler_killed_losses': 1071,
+ 'hitler_killed_wins': 1354,
+ 'six_fascist_policies_losses': 4391,
+ 'six_fascist_policies_wins': 3206}
+{'_id': {'agent': 'PIMC Agent'},
+ 'five_liberal_policies_losses': 896,
+ 'five_liberal_policies_wins': 995,
+ 'hitler_elected_losses': 3926,
+ 'hitler_elected_wins': 2338,
+ 'hitler_killed_losses': 915,
+ 'hitler_killed_wins': 1452,
+ 'six_fascist_policies_losses': 4788,
+ 'six_fascist_policies_wins': 3275}
+
+Process finished with exit code 0

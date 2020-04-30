@@ -1,0 +1,12 @@
+{
+  "_id": "uuid",
+  "num_players": "int",
+  "winning_party": "str",
+  "win_reason": "str",
+  "players": [
+    {
+      "name": "str",
+      "role": "str"
+    }
+  ]
+}
